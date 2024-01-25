@@ -10,5 +10,5 @@ public class ModFoods {
 
     public static final FoodProperties MILK_ICE_CREAM = new FoodProperties.Builder()
             .nutrition(8).saturationMod(0.4f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN), 0.4f).build();
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 5*20), 0.4f).build();
 }
