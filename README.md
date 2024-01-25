@@ -1,4 +1,4 @@
-# Yesseruser's Ice Cream Mod
+# yesseruser's Ice Cream Mod
 
 A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.
 
