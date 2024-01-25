@@ -30,8 +30,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Yesseruser_sIceCreamMod.MODID)
-public class Yesseruser_sIceCreamMod {
+@Mod(YesserusersIceCreamMod.MODID)
+public class YesserusersIceCreamMod {
 
     // Define mod id in a common place for everything to reference
     public static final String MODID = "yesserusers_ice_cream_mod";
@@ -61,7 +61,7 @@ public class Yesseruser_sIceCreamMod {
             output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
-    public Yesseruser_sIceCreamMod() {
+    public YesserusersIceCreamMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
