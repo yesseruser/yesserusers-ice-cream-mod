@@ -1,5 +1,5 @@
 # Yesseruser's Ice Cream Mod
 
-This mod adds multiple ice creams, edible and craftable.
+A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.
 
 Some of them have positive or negative effects, so watch out...
