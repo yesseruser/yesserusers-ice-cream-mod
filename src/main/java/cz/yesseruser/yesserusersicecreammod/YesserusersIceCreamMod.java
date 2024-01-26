@@ -34,8 +34,8 @@ public class YesserusersIceCreamMod {
     public YesserusersIceCreamMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
