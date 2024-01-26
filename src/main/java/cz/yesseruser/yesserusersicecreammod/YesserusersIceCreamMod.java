@@ -69,6 +69,7 @@ public class YesserusersIceCreamMod {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.SWEET_BERRY_ICE_CREAM);
             event.accept(ModItems.MILK_ICE_CREAM);
+            event.accept(ModItems.COCOA_ICE_CREAM);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call

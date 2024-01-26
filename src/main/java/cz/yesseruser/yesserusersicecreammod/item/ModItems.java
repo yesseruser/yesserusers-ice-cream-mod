@@ -13,9 +13,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> SWEET_BERRY_ICE_CREAM = ITEMS.register("sweet_berry_ice_cream",
             () -> new Item(new Item.Properties().food(ModFoods.SWEET_BERRY_ICE_CREAM)));
-
     public static final RegistryObject<Item> MILK_ICE_CREAM = ITEMS.register("milk_ice_cream",
             () -> new Item(new Item.Properties().food(ModFoods.MILK_ICE_CREAM)));
+    public static final RegistryObject<Item> COCOA_ICE_CREAM = ITEMS.register("cocoa_ice_cream",
+            () -> new Item(new Item.Properties().food(ModFoods.COCOA_ICE_CREAM)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SWEET_BERRY_ICE_CREAM.get());
                         pOutput.accept(ModItems.MILK_ICE_CREAM.get());
+                        pOutput.accept(ModItems.COCOA_ICE_CREAM.get());
                     })
                     .build());
 
