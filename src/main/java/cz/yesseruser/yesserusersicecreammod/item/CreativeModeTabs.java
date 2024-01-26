@@ -10,7 +10,7 @@ public class CreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, YesserusersIceCreamMod.MODID);
 
-    //public static final RegistryObject<CreativeModeTab> ICE_CREAM_TAB =
-    //        CREATIVE_MODE_TABS.register("ice_cream_tab"), () -> CreativeModeTab
-
+    public static void register(IEventBus eventBus) {
+        CREATIVE_MODE_TABS.register(eventBus);
+    }
 }
