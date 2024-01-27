@@ -9,7 +9,7 @@
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/stone.png"
+    "background": "yesserusers_ice_cream_mod:textures/block/advancement_background.png"
   },
   "criteria": {
     "mod installed": {
