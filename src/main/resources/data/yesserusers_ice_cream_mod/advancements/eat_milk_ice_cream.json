@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
+      "item": "yesserusers_ice_cream_mod:milk_ice_cream"
     },
-    "title": "Sweet and Creamy!",
-    "description": "Eat a Sweet Berry Ice Cream",
+    "title": "May Cause Brainfreeze!",
+    "description": "Eat a Milk Ice Cream",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yesserusers_ice_cream_mod:eat_milk_ice_cream",
+  "parent": "yesserusers_ice_cream_mod:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "items":[
-            "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
+            "yesserusers_ice_cream_mod:milk_ice_cream"
           ]
         }
       }
