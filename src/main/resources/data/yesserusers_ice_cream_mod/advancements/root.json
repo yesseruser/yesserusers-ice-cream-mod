@@ -1,0 +1,19 @@
+{
+  "display": {
+    "title": "yesseruser's Ice Cream",
+    "description": "A creamy adventure begins!",
+    "icon": {
+      "item": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "criteria": {
+    "mod installed": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
