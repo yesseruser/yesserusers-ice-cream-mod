@@ -1,7 +1,11 @@
 {
   "display": {
-    "title": "yesseruser's Ice Cream",
-    "description": "A creamy adventure begins!",
+    "title": {
+      "translate": "advancements.root.title"
+    },
+    "description": {
+      "translate": "advancements.root.description"
+    },
     "icon": {
       "item": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
     },

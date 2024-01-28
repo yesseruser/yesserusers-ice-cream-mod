@@ -3,8 +3,12 @@
     "icon": {
       "item": "yesserusers_ice_cream_mod:cocoa_ice_cream"
     },
-    "title": "An Exotic Flavor",
-    "description": "Eat a Cocoa Ice Cream",
+    "title": {
+      "translate": "advancements.eat_cocoa_ice_cream.title"
+    },
+    "description": {
+      "translate": "advancements.eat_cocoa_ice_cream.description"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

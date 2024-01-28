@@ -3,8 +3,12 @@
     "icon": {
       "item": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
     },
-    "title": "Sweet and Creamy!",
-    "description": "Eat a Sweet Berry Ice Cream",
+    "title": {
+      "translate": "advancements.eat_sweet_berry_ice_cream.title"
+    },
+    "description": {
+      "translate": "advancements.eat_sweet_berry_ice_cream.description"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
