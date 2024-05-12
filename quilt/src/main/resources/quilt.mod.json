@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "yesserusers_ice_cream_mod",
+    "version": "${version}",
+    "metadata": {
+      "name": "Yesseruser's Ice Cream Mod",
+      "description": "This is an example description! Tell everyone what your mod is about!",
+      "contributors": [
+        "Me!"
+      ],
+      "icon": "assets/yesserusers_ice_cream_mod/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "cz.yesseruser.quilt.ExampleModQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.4"
+      },
+      {
+        "id": "architectury",
+        "version": ">=11.1.17"
+      }
+    ]
+  },
+  "mixin": [
+    "yesserusers_ice_cream_mod.mixins.json"
+  ]
+}
