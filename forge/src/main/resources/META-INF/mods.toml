@@ -7,7 +7,7 @@ license = "Insert License Here"
 modId = "yesserusers_ice_cream_mod"
 version = "${version}"
 displayName = "Yesseruser's Ice Cream Mod"
-authors = "Me!"
+authors = "yesseruser"
 description = '''
 This is an example description! Tell everyone what your mod is about!
 '''
@@ -16,14 +16,14 @@ This is an example description! Tell everyone what your mod is about!
 [[dependencies.yesserusers_ice_cream_mod]]
 modId = "forge"
 mandatory = true
-versionRange = "[49,)"
+versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.yesserusers_ice_cream_mod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.4,)"
+versionRange = "[1.20,)"
 ordering = "NONE"
 side = "BOTH"
 

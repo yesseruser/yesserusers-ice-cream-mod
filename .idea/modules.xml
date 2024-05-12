@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/yesserusers_ice_cream_mod.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/yesserusers_ice_cream_mod.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/yesserusers_ice_cream_mod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/yesserusers_ice_cream_mod.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/yesserusers_ice_cream_mod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/yesserusers_ice_cream_mod.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/yesserusers_ice_cream_mod.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/yesserusers_ice_cream_mod.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/yesserusers_ice_cream_mod.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/yesserusers_ice_cream_mod.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/yesserusers_ice_cream_mod.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/yesserusers_ice_cream_mod.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/yesserusers_ice_cream_mod.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/yesserusers_ice_cream_mod.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_ice_cream_mod.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_ice_cream_mod.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_ice_cream_mod.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_ice_cream_mod.neoforge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/yesserusers_ice_cream_mod.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/yesserusers_ice_cream_mod.quilt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/yesserusers_ice_cream_mod.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/yesserusers_ice_cream_mod.quilt.test.iml" />
+    </modules>
+  </component>
+</project>

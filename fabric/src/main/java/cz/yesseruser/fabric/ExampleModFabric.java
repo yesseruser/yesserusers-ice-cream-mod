@@ -2,7 +2,7 @@ package cz.yesseruser.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import cz.yesseruser.ExampleMod;
+import cz.yesseruser.YesserusersIceCreamMod;
 
 public final class ExampleModFabric implements ModInitializer {
     @Override
@@ -12,6 +12,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ExampleMod.init();
+        YesserusersIceCreamMod.init();
     }
 }

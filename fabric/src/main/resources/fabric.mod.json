@@ -5,7 +5,7 @@
   "name": "Yesseruser's Ice Cream Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "yesseruser"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -27,7 +27,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.15.11",
-    "minecraft": "~1.20.4",
+    "minecraft": "~1.20",
     "java": ">=17",
     "architectury": ">=11.1.17",
     "fabric-api": "*"

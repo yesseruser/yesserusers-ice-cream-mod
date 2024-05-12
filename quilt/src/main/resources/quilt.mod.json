@@ -7,9 +7,9 @@
     "metadata": {
       "name": "Yesseruser's Ice Cream Mod",
       "description": "This is an example description! Tell everyone what your mod is about!",
-      "contributors": [
-        "Me!"
-      ],
+      "contributors": {
+        "yesseruser": "Owner"
+      },
       "icon": "assets/yesserusers_ice_cream_mod/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
@@ -29,15 +29,12 @@
       },
       {
         "id": "minecraft",
-        "version": ">=1.20.4"
+        "version": ">=1.20"
       },
       {
         "id": "architectury",
         "version": ">=11.1.17"
       }
     ]
-  },
-  "mixin": [
-    "yesserusers_ice_cream_mod.mixins.json"
-  ]
+  }
 }
