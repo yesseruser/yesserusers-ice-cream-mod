@@ -10,7 +10,7 @@
       "contributors": {
         "yesseruser": "Owner"
       },
-      "icon": "assets/yesserusers_ice_cream_mod/icon.png",
+      "icon": "assets/yesserusers_ice_cream_mod/textures/item/sweet_berry_ice_cream.png",
       "license": "MIT"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
@@ -22,10 +22,6 @@
     "depends": [
       {
         "id": "quilt_loader",
-        "version": "*"
-      },
-      {
-        "id": "quilt_base",
         "version": "*"
       },
       {
