@@ -10,7 +10,8 @@
       "contributors": {
         "yesseruser": "Owner"
       },
-      "icon": "assets/yesserusers_ice_cream_mod/icon.png"
+      "icon": "assets/yesserusers_ice_cream_mod/icon.png",
+      "license": "MIT"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
@@ -33,7 +34,7 @@
       },
       {
         "id": "architectury",
-        "version": ">=11.1.17"
+        "version": "*"
       }
     ]
   }
