@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Yesseruser's Ice Cream Mod"
 authors = "yesseruser"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.
 '''
 #logoFile = ""
 

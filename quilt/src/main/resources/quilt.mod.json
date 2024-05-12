@@ -6,7 +6,7 @@
     "version": "${version}",
     "metadata": {
       "name": "Yesseruser's Ice Cream Mod",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "description": "A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.",
       "contributors": {
         "yesseruser": "Owner"
       },
