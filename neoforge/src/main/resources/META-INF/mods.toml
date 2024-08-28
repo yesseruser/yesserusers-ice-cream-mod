@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[1,)"
+loaderVersion = "[1.0,)"
 issueTrackerURL = "https://github.com/yesseruser/yesserusers-ice-cream-mod/issues"
 license = "MIT"
 
@@ -16,7 +16,7 @@ A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.
 [[dependencies.yesserusers_ice_cream_mod]]
 modId = "neoforge"
 type = "required"
-versionRange = "[1,)"
+versionRange = "[1.0,)"
 ordering = "NONE"
 side = "BOTH"
 
