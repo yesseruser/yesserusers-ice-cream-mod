@@ -11,6 +11,6 @@ made with MCreator. This version is, however, made the classic way (with Java) f
 To build and test the mod, you need IntelliJ IDEA with the [Minecraft Development](https://plugins.jetbrains.com/plugin/8327-minecraft-development) mod installed.
 Community edition works. The [Architectury](https://plugins.jetbrains.com/plugin/16210-architectury) plugin is also recommended.  
 Clone the repository, then open the directory with IntelliJ IDEA. It will then load the gradle project and generate build configurations. 
-Depending on your internet speed, this may take 5-15 minutes if Gradle wasn't downloaded before.
+Depending on your internet speed, this may take 5-15 minutes for the first time.
 
 To run the mod, use the generated Minecraft Client (:loader) configuration with the loader of your choice.
