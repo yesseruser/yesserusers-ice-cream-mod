@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+      "&&&",
+      "# #",
+      " # "
+  ],
+  "key": {
+    "&": "minecraft:sweet_berries",
+    "#": "minecraft:wheat"
+  },
+  "result": {
+    "id": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
+  }
+}
