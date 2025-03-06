@@ -7,7 +7,7 @@
       "translate": "advancements.root.description"
     },
     "icon": {
-      "item": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
+      "id": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
     },
     "frame": "task",
     "show_toast": false,

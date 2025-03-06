@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "yesserusers_ice_cream_mod:milk_ice_cream"
+      "id": "yesserusers_ice_cream_mod:milk_ice_cream"
     },
     "title": {
       "translate": "advancements.eat_milk_ice_cream.title"
