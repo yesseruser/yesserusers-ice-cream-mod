@@ -1,0 +1,8 @@
+.gradle/
+*/run/
+*/build/
+run/
+build/
+
+# .idea gets regenerated so there's no need for it to exist
+.idea/

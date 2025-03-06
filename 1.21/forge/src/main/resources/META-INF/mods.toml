@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/yesseruser/yesserusers-ice-cream-mod/issues"
+license = "MIT"
+
+[[mods]]
+modId = "yesserusers_ice_cream_mod"
+version = "${version}"
+displayName = "Yesseruser's Ice Cream Mod"
+authors = "yesseruser"
+description = '''
+A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.
+'''
+#logoFile = ""
+
+[[dependencies.yesserusers_ice_cream_mod]]
+modId = "forge"
+mandatory = true
+versionRange = "[1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.yesserusers_ice_cream_mod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.yesserusers_ice_cream_mod]]
+modId = "architectury"
+mandatory = true
+versionRange = "[*,)"
+ordering = "AFTER"
+side = "BOTH"
