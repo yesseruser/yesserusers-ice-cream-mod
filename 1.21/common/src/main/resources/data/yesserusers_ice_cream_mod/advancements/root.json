@@ -1,0 +1,23 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.root.title"
+    },
+    "description": {
+      "translate": "advancements.root.description"
+    },
+    "icon": {
+      "item": "yesserusers_ice_cream_mod:sweet_berry_ice_cream"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "yesserusers_ice_cream_mod:textures/block/advancement_background.png"
+  },
+  "criteria": {
+    "mod installed": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

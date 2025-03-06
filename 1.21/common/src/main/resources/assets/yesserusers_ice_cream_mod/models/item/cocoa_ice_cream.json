@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yesserusers_ice_cream_mod:item/cocoa_ice_cream"
+  }
+}
