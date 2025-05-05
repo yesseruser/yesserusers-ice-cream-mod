@@ -7,9 +7,9 @@ license = "Insert License Here"
 modId = "yesserusers_ice_cream_mod"
 version = "${version}"
 displayName = "Yesseruser's Ice Cream Mod"
-authors = "Me!"
+authors = "yesseruser"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.
 '''
 #logoFile = ""
 

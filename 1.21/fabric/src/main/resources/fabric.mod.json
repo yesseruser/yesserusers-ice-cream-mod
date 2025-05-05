@@ -3,9 +3,9 @@
   "id": "yesserusers_ice_cream_mod",
   "version": "${version}",
   "name": "Yesseruser's Ice Cream Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.",
   "authors": [
-    "Me!"
+    "yesseruser"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
