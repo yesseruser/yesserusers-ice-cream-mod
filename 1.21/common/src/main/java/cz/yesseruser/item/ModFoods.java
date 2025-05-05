@@ -6,7 +6,6 @@ import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.consume.ApplyEffectsConsumeEffect;
-import net.minecraft.stat.Stat;
 
 public class ModFoods {
     public static final FoodComponent SWEET_BERRY_ICE_CREAM = new FoodComponent.Builder()
