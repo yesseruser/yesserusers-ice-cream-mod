@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "yesserusers-ice-cream-mod",
+  "version": "${version}",
+  "name": "yesserusers-ice-cream-mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/yesserusers-ice-cream-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "cz.yesseruser.yesserusersIceCreamMod.client.YesserusersIceCreamModDataGenerator"
+    ],
+    "client": [
+      "cz.yesseruser.yesserusersIceCreamMod.client.YesserusersIceCreamModClient"
+    ],
+    "main": [
+      "cz.yesseruser.yesserusersIceCreamMod.YesserusersIceCreamMod"
+    ]
+  },
+  "mixins": [
+    "yesserusers-ice-cream-mod.mixins.json",
+    {
+      "config": "yesserusers-ice-cream-mod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
