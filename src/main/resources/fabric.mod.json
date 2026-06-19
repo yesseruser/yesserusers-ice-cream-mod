@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/yesserusers-ice-cream-mod/icon.png",
+  "icon": "assets/yesserusers_ice_cream_mod/textures/item/sweet_berry_ice_cream.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
