@@ -27,13 +27,12 @@
     "yesserusers_ice_cream_mod.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.10",
+    "fabricloader": "*",
     "minecraft": ">=1.21.4",
     "java": ">=21",
-    "architectury": ">=15.0.1",
+    "architectury": "*",
     "fabric-api": "*"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
