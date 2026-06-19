@@ -2,10 +2,14 @@
   "schemaVersion": 1,
   "id": "yesserusers-ice-cream-mod",
   "version": "${version}",
-  "name": "yesserusers-ice-cream-mod",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "name": "Yesseruser's Ice Cream Mod",
+  "description": "A simple ice cream mod. Adds multiple ice creams that can be crafted and eaten.\nSome of them have positive or negative effects, so watch out...",
+  "authors": ["yesseruser"],
+  "contact": {
+    "homepage": "https://github.com/yesseruser/yesserusers-ice-cream-mod",
+    "issues": "https://github.com/yesseruser/yesserusers-ice-cream-mod/issues",
+    "sources": "https://github.com/yesseruser/yesserusers-ice-cream-mod"
+  },
   "license": "MIT",
   "icon": "assets/yesserusers_ice_cream_mod/textures/item/sweet_berry_ice_cream.png",
   "environment": "*",
