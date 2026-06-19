@@ -1,0 +1,17 @@
+{
+  "item.yesserusers_ice_cream_mod.sweet_berry_ice_cream": "Sweet Berry Ice Cream",
+  "item.yesserusers_ice_cream_mod.milk_ice_cream": "Milk Ice Cream",
+  "item.yesserusers_ice_cream_mod.cocoa_ice_cream": "Cocoa Ice Cream",
+
+  "creativetab.ice_cream_tab": "yesseruser's Ice Creams",
+
+  "advancements.root.title": "yesseruser's Ice Cream",
+  "advancements.eat_sweet_berry_ice_cream.title": "Sweet and Creamy!",
+  "advancements.eat_milk_ice_cream.title": "May Cause Brainfreeze!",
+  "advancements.eat_cocoa_ice_cream.title": "An Exotic Flavor!",
+
+  "advancements.root.description": "A creamy adventure begins!",
+  "advancements.eat_sweet_berry_ice_cream.description": "Eat a Sweet Berry Ice Cream",
+  "advancements.eat_milk_ice_cream.description": "Eat a Milk Ice Cream",
+  "advancements.eat_cocoa_ice_cream.description": "Eat a Cocoa Ice Cream"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+      "&&&",
+      "# #",
+      " # "
+  ],
+  "key": {
+    "&": "minecraft:cocoa_beans",
+    "#": "minecraft:wheat"
+  },
+  "result": {
+    "id": "yesserusers_ice_cream_mod:cocoa_ice_cream"
+  }
+}

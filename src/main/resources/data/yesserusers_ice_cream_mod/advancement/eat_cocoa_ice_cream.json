@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "yesserusers_ice_cream_mod:cocoa_ice_cream"
+    },
+    "title": {
+      "translate": "advancements.eat_cocoa_ice_cream.title"
+    },
+    "description": {
+      "translate": "advancements.eat_cocoa_ice_cream.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "yesserusers_ice_cream_mod:eat_sweet_berry_ice_cream",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items":[
+            "yesserusers_ice_cream_mod:cocoa_ice_cream"
+          ]
+        }
+      }
+    }
+  }
+}
