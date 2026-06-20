@@ -1,22 +1,22 @@
 plugins {
-    id 'net.fabricmc.fabric-loom' version '1.17-SNAPSHOT'
-    id 'maven-publish'
+    id("net.fabricmc.fabric-loom").version("1.17-SNAPSHOT")
+    id("maven-publish")
 }
 
-version = project.mod_version
-group = project.maven_group
+version = project.property("mod_version") as String
+group = project.property("maven_group") as String
 
 base {
-    archivesName = project.archives_base_name
+    archivesName.set(project.property("archives_base_name") as String)
 }
 
 loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "yesserusers-ice-cream-mod" {
-            sourceSet sourceSets.main
-            sourceSet sourceSets.client
+        create("yesserusers-ice-cream-mod") {
+            sourceSet(sourceSets["main"])
+            sourceSet(sourceSets["client"])
         }
     }
 }
@@ -37,57 +37,57 @@ repositories {
 
 dependencies {
     // To change the versions see the gradle.properties file
-    minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    minecraft("com.mojang:minecraft:${project.property("minecraft_version")}")
+    implementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
 
-    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    implementation("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_version")}")
 }
 
-processResources {
-    inputs.property "version", project.version
-    inputs.property "minecraft_version", project.minecraft_version
-    inputs.property "loader_version", project.loader_version
-    filteringCharset "UTF-8"
+tasks.processResources {
+    inputs.property("version", project.version)
+    inputs.property("minecraft_version", project.property("minecraft_version"))
+    inputs.property("loader_version", project.property("loader_version"))
+    filteringCharset = "UTF-8"
 
     filesMatching("fabric.mod.json") {
-        expand "version": project.version,
-                "minecraft_version": project.minecraft_version,
-                "loader_version": project.loader_version
+        expand( mapOf("version" to project.version,
+                "minecraft_version" to project.property("minecraft_version"),
+                "loader_version" to project.property("loader_version")))
     }
 }
 
-def targetJavaVersion = 25
-tasks.withType(JavaCompile).configureEach {
+val targetJavaVersion = 25
+tasks.withType<JavaCompile>().configureEach {
     // ensure that the encoding is set to UTF-8, no matter what the system default is
     // this fixes some edge cases with special characters not displaying correctly
     // see http://yodaconditions.net/blog/fix-for-java-file-encoding-problems-with-gradle.html
     // If Javadoc is generated, this must be specified in that task too.
-    it.options.encoding = "UTF-8"
+    options.encoding = "UTF-8"
     if (targetJavaVersion >= 10 || JavaVersion.current().isJava10Compatible()) {
-        it.options.release.set(targetJavaVersion)
+        options.release.set(targetJavaVersion)
     }
 }
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
+    toolchain.languageVersion.set(JavaLanguageVersion.of(targetJavaVersion))
     // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
     // if it is present.
     // If you remove this line, sources will not be generated.
     withSourcesJar()
 }
 
-jar {
+tasks.jar {
     from("LICENSE") {
-        rename { "${it}_${project.archives_base_name}" }
+        rename { "${it}_${project.property("archives_base_name")}" }
     }
 }
 
 // configure the maven publication
 publishing {
     publications {
-        create("mavenJava", MavenPublication) {
-            artifactId = project.archives_base_name
-            from components.java
+        create<MavenPublication>("mavenJava") {
+            artifactId = project.property("archives_base_name") as String
+            from(components["java"])
         }
     }
 
