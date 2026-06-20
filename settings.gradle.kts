@@ -4,6 +4,17 @@ pluginManagement {
             name = "Fabric"
             url = uri("https://maven.fabricmc.net/")
         }
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = "Modrinth"
+                    url = uri("https://maven.modrinth.com/")
+                }
+            }
+            filter {
+                includeGroup("maven.modrinth")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
